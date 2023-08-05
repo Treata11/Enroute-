@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6110425B2A7E765900BFAEF6 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6110425A2A7E765900BFAEF6 /* MapView.swift */; };
 		DA47A9BD2469F34800C8E13C /* FilterFlights.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA47A9BC2469F34800C8E13C /* FilterFlights.swift */; };
 		DAB658A42467944B00A0F2BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB658A32467944B00A0F2BB /* AppDelegate.swift */; };
 		DAB658A62467944B00A0F2BB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB658A52467944B00A0F2BB /* SceneDelegate.swift */; };
@@ -28,6 +29,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6110425A2A7E765900BFAEF6 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		DA47A9BC2469F34800C8E13C /* FilterFlights.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterFlights.swift; sourceTree = "<group>"; };
 		DAB658A02467944B00A0F2BB /* Enroute.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Enroute.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAB658A32467944B00A0F2BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				DA47A9BC2469F34800C8E13C /* FilterFlights.swift */,
+				6110425A2A7E765900BFAEF6 /* MapView.swift */,
 				DAB658AA2467944B00A0F2BB /* FlightsEnrouteView.swift */,
 				DAB658A72467944B00A0F2BB /* Enroute.xcdatamodeld */,
 				DAA4E825246C5F160072134C /* L12 */,
@@ -199,6 +202,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DAB658C92467A03800A0F2BB /* Airline.swift in Sources */,
+				6110425B2A7E765900BFAEF6 /* MapView.swift in Sources */,
 				DAB658C6246794A800A0F2BB /* FlightAwareRequest.swift in Sources */,
 				DAB658C7246794A800A0F2BB /* FlightSimulationData.swift in Sources */,
 				DAB658A92467944B00A0F2BB /* Enroute.xcdatamodeld in Sources */,
